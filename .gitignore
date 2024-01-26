@@ -1,0 +1,15 @@
+.DS_Store
+*.aux
+*.log
+*.fdb_latexmk
+*.fls
+*.pdf
+*.toc
+*.synctex.gz
+
+# auto generated files
+graph-*.tex
+
+# ide related folder
+.vscode
+svg-inkscape
