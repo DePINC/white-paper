@@ -44,43 +44,17 @@ const roadMap = (entries) => {
 
 const entries = [
     {
+        time: '2025',
+        title: '\\textbf{Fusion Consensus}',
+        desc: 'DEPC is committed to building a \\\\flexible, scalable and integrated \\\\decentralized protocol ecosystem to meet \\\\future challenges and opportunities.',
+        height: 2.2,
+    },
+    {
         time: 'Q1, 2023',
         title: '\\textbf{Chia consensus}',
         desc: 'In 2023, DEPINC will be compatible \\\\with Chia\'s old agreement documents \\\\for mining.',
         height: 2,
     },
-    {
-        title: '\\textbf{10000 peta bytes}',
-        desc: 'Capacity size reaches \\\\10000 peta bytes, builds the \\\\stable currency system using \\\\capacity as standard, \\\\services for the application layer.',
-        height: 2.5,
-    },
-    {
-        title: '\\textbf{6000 peta bytes}',
-        desc: 'Capacity size reaches \\\\6000 peta bytes, upgrades \\\\PoS consensus.',
-        height: 2,
-    },
-    {
-        title: '\\textbf{3000 peta bytes}',
-        desc: 'Capacity size reaches \\\\3000 peta bytes, implements \\\\zero knowledge function, \\\\improves TPS.',
-        height: 2.2,
-    },
-    {
-        title: '\\textbf{Elastic economic model}',
-        desc: 'When the whole network \\\\computing power enters a \\\\positive growth cycle, adds \\\\elastic economic model according \\\\to the community consensus',
-        height: 2.5,
-    },
-    {
-        time: 'Sep 4, 2018',
-        title: '\\textbf{PoC experiment}',
-        desc: 'DEPINC started conditional PoC \\\\experiment.',
-        height: 1.7,
-    },
-    {
-        time: 'Aug 3, 2018',
-        title: '\\textbf{Genesis block}',
-        desc: 'The DEPINC genesis block was \\\\mined. it initiated a new \\\\mining method, and first month \\\\of unconditional storage mining.',
-        height: 2.2,
-    }
 ]
 
 add(roadMap(entries));
