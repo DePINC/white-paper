@@ -72,11 +72,11 @@ const angelToRadians = (angel) => {
     return angel / (180 / 3.141593);
 }
 
-const calcPositionX = (angel, r) => {
+const calCPoSTitionX = (angel, r) => {
     return Math.cos(angelToRadians(angel)) * r;
 }
 
-const calcPositionY = (angel, r) => {
+const calCPoSTitionY = (angel, r) => {
     return Math.sin(angelToRadians(angel)) * r;
 }
 
@@ -145,8 +145,8 @@ for (const pool of POOLS) {
     }
     const thisAngel = percentToAngle(pool.percent);
     const angel = thisAngel + lastAngel;
-    const x = calcPositionX(lastAngel, RADIUS);
-    const y = calcPositionY(lastAngel, RADIUS);
+    const x = calCPoSTitionX(lastAngel, RADIUS);
+    const y = calCPoSTitionY(lastAngel, RADIUS);
     let color = randomColorName(lastColor);
     let opacity = randomColorOpacity();
     while (isColorTaken(color, opacity)) {
@@ -159,10 +159,10 @@ for (const pool of POOLS) {
     pool.opacity = opacity;
     // Info
     const infoAngel = lastAngel + thisAngel / 2;
-    const infoStartX = calcPositionX(infoAngel, RADIUS);
-    const infoStartY = calcPositionY(infoAngel, RADIUS);
-    const infoEndX = calcPositionX(infoAngel, RADIUS + INFO_LINE_LEN);
-    const infoEndY = calcPositionY(infoAngel, RADIUS + INFO_LINE_LEN);
+    const infoStartX = calCPoSTitionX(infoAngel, RADIUS);
+    const infoStartY = calCPoSTitionY(infoAngel, RADIUS);
+    const infoEndX = calCPoSTitionX(infoAngel, RADIUS + INFO_LINE_LEN);
+    const infoEndY = calCPoSTitionY(infoAngel, RADIUS + INFO_LINE_LEN);
     const infoToRight = infoAngel >= 0 && infoAngel <= 90 || infoAngel >= 270;
     const infoToTop = infoAngel < 180;
     const infoToX = infoToRight ? infoEndX + INFO_LINE_HORZ : infoEndX - INFO_LINE_HORZ;
