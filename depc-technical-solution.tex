@@ -1,42 +1,72 @@
-\chapter{DEPINC's Technical Solution}
+\chapter{DePINC's Technical Solution}
+\section{What is DePINC}
 \begin{flushleft}
-    DEPINC uses PoS as the basis of its consensus mechanism, it ensures sound development of the entire crypto currency by designing a long-term incentive economic model. At the same time, it has made some improvements to the existing PoS and upgraded it to the CPoST consensus.
+    DePINC aims to establish itself as a DePIN Protocol Hub, integrating validated algorithms for storage and computing. By offering a diverse range of flexible protocol combinations, DePINC provides users with efficient, secure, and flexible decentralized infrastructure solutions all in one place.
 \end{flushleft}
-\section{DEPINC Distribution and Mining Mechanism}
 \begin{flushleft}
-    \textit{Please note: some of the chain parameters are upgraded after DEPINC upgrade to Chia's consensus (DePC009 DePC010). Check the chapters ``Update to Chia consensus'' - ``4.6 Economic model'' and ``5.1 Upgrade content''.}
+    Specifically, DePINC begins with reusable storage protocols. As technology advances, DePINC will gradually expand into more protocols covering areas such as computing and data processing. Through this approach, DePINC is dedicated to constructing a multi-layered, multifunctional decentralized ecosystem that comprehensively supports decentralized services for users.
 \end{flushleft}
+\begin{flushleft}
+    The project's native token is DePC, a novel cryptocurrency based on the CPoST (Conditional Proof of Space Time) consensus mechanism. By involving hard drives as consensus participants, DePINC significantly reduces energy consumption and entry barriers, making the cryptocurrency more secure, decentralized, and accessible to everyone.
+\end{flushleft}
+\begin{flushleft}
+    In comparison to Bitcoin, which utilizes the PoW (Proof of Work) consensus mechanism to establish a secure peer-to-peer system, DePINC addresses the issue of high energy consumption and monopolization of electricity resources. Despite the reliability and simplicity of PoW, it disregards concerns over resource consumption and future energy monopolies. With the increasing resource consumption of Bitcoin, more environmentally friendly consensus protocols have emerged. One such protocol is Proof of Space-Time, which, like PoW, ensures security but with significantly lower energy consumption. DePINC adopts this excellent consensus mechanism as a solution to Bitcoin's high energy consumption issues, ensuring network security, system stability, and a notable reduction in energy consumption.
+\end{flushleft}
+\subsection{Four major challenges}
+\begin{flushleft}
+    \textbf{Cryptocurrencies today still face four major challenges}: monopolization, centralization of computing power, high energy consumption, and shortcomings in the existing PoW mechanism. DePINC has emerged to address these issues. It excels over existing cryptocurrencies in the following aspects:
+\end{flushleft}
+\begin{flushleft}
+    \textbf{Monopoly Issue}: By utilizing hard drives as consensus participants, DePINC reduces the barriers to entry for mining, preventing resources from being concentrated in the hands of a few large miners.
+\end{flushleft}
+\begin{flushleft}
+    \textbf{Centralization of Computing Power}: The PoST mechanism decreases reliance on computational power, enabling more individuals to participate in the network and thereby enhancing decentralization.
+\end{flushleft}
+\begin{flushleft}
+    \textbf{High Energy Consumption}: Compared to PoW, DePINC's CPoST consensus mechanism offers lower energy consumption, promoting environmental sustainability.
+\end{flushleft}
+\begin{flushleft}
+    \textbf{Shortcomings of Existing PoW Mechanism}: DePINC addresses these by integrating the PoST consensus mechanism, comprehensively enhancing system security and stability both technically and within the community.
+\end{flushleft}
+\subsection{Algorithms and mechanism}
+\begin{flushleft}
+    DePINC believes that low power consumption can also provide sufficient trust for algorithms, ensuring widespread use of cryptocurrencies in more future scenarios. By integrating multiple efficient protocols, DePINC continues to drive the development of decentralized technology, offering users a better experience and broader application prospects.
+\end{flushleft}
+\begin{flushleft}
+    DePINC's Algorithmic Consensus Mechanism The core proof algorithm of DePINC's consensus protocol is PoST, which utilizes Plot files for mining. This approach supports DePINC and enhances network miners' income through composite security with other similar algorithmic projects.
+\end{flushleft}
+\subsection{The network parameters}
 \begin{tabular}{ p{4cm} p{8cm} }
     \hline
-    \textbf{Total supply}                           & 21 million (63 million after DePC009)                                                                       \\[5pt]
-    \rowcolor{lightgray!30}\textbf{Development team}   & $10\%$: 2.1 million. Way: pre-mined                                                                      \\[5pt]
-    \textbf{Operation team}                         & $5\%$: 1.05 million. Way: obtain from blocks generated during miners mining                              \\[5pt]
-    \rowcolor{lightgray!30}\textbf{Miner}              & $85\%$: 17.85 million. Way: mining                                                                       \\[5pt]
-    \textbf{Avg. block time}                        & 3 minutes                                                                                                \\[5pt]
-    \rowcolor{lightgray!30}\textbf{Initial block size} & 15 DEPINC / Block, 2MB block size                                                                           \\[5pt]
+    \textbf{Total supply}                           & 84 million                                                                        \\[5pt]
+    \rowcolor{lightgray!30}\textbf{Development team}   & 2.1 million. Way: pre-mined                                                                      \\[5pt]
+    \rowcolor{lightgray!30}\textbf{Miner}              & 80 million. Way: mining                                                                       \\[5pt]
+    \textbf{Avg. block time}                        & 3-4 minutes                                                                                                \\[5pt]
+    \rowcolor{lightgray!30}\textbf{Initial block size} & 15 DePINC / Block, 2MB block size                                                                           \\[5pt]
     \textbf{Halve period}                           & In 4 years, the first halving time is about 582688 block height                                          \\[5pt]
     \rowcolor{lightgray!30}\textbf{Current TPS}        & 70 transactions / sec                                                                                    \\[5pt]
-    \textbf{Stake}                                  & 1T hard disk stake 3 DEPINC. Note: 1T hard disk is evaluated based on computing power, not absolute values. \\[5pt]
+    \textbf{Stake}                                  & Stake amount relate to the computing power. \\[5pt]
+    \rowcolor{lightgray!30}\textbf{No stake}        & Only $10\%$ of the block reward.                                                                                   \\[5pt]
     \hline
 \end{tabular}
 \begin{flushleft}
-    In the first month, after mining of the genesis block, miner can mine with no condition limitation. From the second month onwards, the $30\%$ return that does not meet the conditional capacity mining revenue remains the same. For the remaining $70\%$, $43\%$ is directly accumulated to the next eligible conditional address, and the remaining $27\%$ is allocated to the DEPINC Development Foundation. For every 33,600 blocks (about 10 weeks) after, the DEPINC Development Foundation's revenue will be reduced by $2\%$, and the partial accumulation will be reduced to the next block that meets the conditions for mining. By the first halving, the DEPINC Foundation's revenue will be reduced to $5\%$ and stay at that amount. $65\%$ of the income that does not meet the conditional capacity mining will accumulating to the next block that meets the conditional mining; If the conditions are satisfied, miner would get $95\%$ of the mining reward, then the $5\%$ remaining reward would go to the foundation for marketing.
+    In the first month, after mining of the genesis block, miner can mine with no condition limitation. From the second month onwards, the $30\%$ return that does not meet the conditional capacity mining revenue remains the same. For the remaining $70\%$, $43\%$ is directly accumulated to the next eligible conditional address, and the remaining $27\%$ is allocated to the DePINC Development Foundation. For every 33,600 blocks (about 10 weeks) after, the DePINC Development Foundation's revenue will be reduced by $2\%$, and the partial accumulation will be reduced to the next block that meets the conditions for mining. By the first halving, the DePINC Foundation's revenue will be reduced to $5\%$ and stay at that amount. $65\%$ of the income that does not meet the conditional capacity mining will accumulating to the next block that meets the conditional mining; If the conditions are satisfied, miner would get $95\%$ of the mining reward, then the $5\%$ remaining reward would go to the foundation for marketing.
 \end{flushleft}
 \begin{flushleft}
     Conditioned Proof of Space Time, or CPoST, would lead the miners, mining pools, the foundation and other participants to engage in a positive business cycle, so that the whole system would always have a dominant temporary commercial vested beneficiary (this vested beneficiary could change with variables such as time, price and mining difficulty) to promote the whole ecosystem.
 \end{flushleft}
-\section{DEPINC Economic Model}
+\section{DePINC Economic Model}
 \begin{flushleft}
-    DEPINC's economic model / consensus mechanism has been upgraded based on the Burst PoS2 (Proof of Space), and is called: CPoST (Conditioned-Proof of Space Time).
+    DePINC's economic model / consensus mechanism has been upgraded based on the Chia PoST (Proof of Space Time), and is called: CPoST (Conditioned-Proof of Space Time).
 \end{flushleft}
 \begin{flushleft}
     The model will solve the problems listed below:
 \end{flushleft}
 \subsection{Economic Model Attack}
 \begin{flushleft}
-    The main purpose of miners mining is the payback period, and the benefits will inevitably lead to the sale of all mining output, resulting in market crash, lower prices and thinner profits. The CPoST mining model binds miner to its ecosystem, and uses output of mining as future input of mining, to make the entire DEPINC system grow automatically.
+    The main purpose of miners mining is the payback period, and the benefits will inevitably lead to the sale of all mining output, resulting in market crash, lower prices and thinner profits. The CPoST mining model binds miner to its ecosystem, and uses output of mining as future input of mining, to make the entire DePINC system grow automatically.
 \end{flushleft}
-\subsection{POW High Maintenance Cost}
+\subsection{PoW High Maintenance Cost}
 \begin{flushleft}
     It requires a huge amount of power to keep the chain with PoW consensus safe. In good days, it works fine for each part of the system, but in hard times, miners have to pay bills by selling, and it is not easy to keep the miners in the system, if they always have to consider how much energy has been consumed.
 \end{flushleft}
@@ -46,48 +76,48 @@
 \end{flushleft}
 \subsection{Mining Machine Monopoly}
 \begin{flushleft}
-    The POW consensus mechanism will inevitably lead to a race for mining machines. In order to obtain higher hash power, special-purpose mining machines with higher performance will be developed inevitably, and ordinary people cannot participate in mining. The CPoST mechanism is much more accessible because of slow iteration of hard disk manufacturers and low entry barrier. In traditional businesses, the vendor is normally not a competitor to users. But in the PoW systems, the ASIC manufacturer is the biggest miner. It can be easily understood that the miner's competitor is the miner's vendor, since device suppliers take most of the profit by providing mining machines, miner is radically the risk-free arbitrage of ASIC manufacturers.
+    The PoW consensus mechanism will inevitably lead to a race for mining machines. In order to obtain higher hash power, special-purpose mining machines with higher performance will be developed inevitably, and ordinary people cannot participate in mining. The CPoST mechanism is much more accessible because of slow iteration of hard disk manufacturers and low entry barrier. In traditional businesses, the vendor is normally not a competitor to users. But in the PoW systems, the ASIC manufacturer is the biggest miner. It can be easily understood that the miner's competitor is the miner's vendor, since device suppliers take most of the profit by providing mining machines, miner is radically the risk-free arbitrage of ASIC manufacturers.
 \end{flushleft}
 \subsection{Power Resources Monopoly}
 \begin{flushleft}
     The power resources monopoly leads to no PoW ecosystem expansion, as the cost of mining exceeds the return. For those CPoST miners, the hard disks have much lower power requirement, thus the return of mining is higher. The linear hedge ratio of civil computer hardware can also be taken into consideration to ensure that miners can hedge the price fluctuation risk in the secondary market under the condition of relative safety and cost protection.
 \end{flushleft}
-\section{DEPINC Architecture and Consensus Mechanism}
+\section{DePINC Architecture and Consensus Mechanism}
 \begin{flushleft}
-    The DEPINC wallet is derived from Bitcoin and the consensus from Burst's PoS2.
+    The DePINC wallet is derived from Bitcoin and the consensus from Chia's PoST.
 \end{flushleft}
 \begin{flushleft}
     Bitcoin started in Jan 2009, the stability of wallet and blockchain is widely accepted after 10 years of iterations, it is safe and reliable to implement the PoS consensus on the Bitcoin QT wallet.
 \end{flushleft}
 \begin{flushleft}
-    Burst Coin started in August 2014, and upgraded to PoS2 in 2018 after 4 years of iteration. Combining the advantages of Bitcoin and Burst, DEPINC has currently become the most reliable public chain with PoS consensus algorithm.
+    Chia started in August 2017. Combining the advantages of Bitcoin and Chia, DePINC has currently become the most reliable public chain with PoST consensus algorithm.
 \end{flushleft}
 \begin{flushleft}
-    Since its launch on August 3rd 2018, DEPINC has grown steadily in computing power, withstood numerous tests, attacks, and cracks, and so far no major loopholes have emerged.
+    Since its launch on August 3rd 2018, DePINC has grown steadily in computing power, withstood numerous tests, attacks, and cracks, and so far no major loopholes have emerged.
 \end{flushleft}
 \begin{flushleft}
-    By adopting the mature PoS2 mechanism, a stable and reliable consensus mechanism is introduced to build community confidence in the DEPINC public chain. Since being compatible with Burst Plot files, miners can get both DEPINC and BurstCoin benefits, with only an additional operation.
+    By adopting the mature PoST mechanism, a stable and reliable consensus mechanism is introduced to build community confidence in the DePINC public chain. Since being compatible with Chia Plot files, miners can get both DePINC and Chia benefits, with only an additional operation.
 \end{flushleft}
 \begin{flushleft}
-    The DEPINC wallet inherits Bitcoin's excellent P2P network architecture and UTXO system, which is mature and stable.
+    The DePINC wallet inherits Bitcoin's excellent P2P network architecture and UTXO system, which is mature and stable.
 \end{flushleft}
 \begin{flushleft}
     The wallet client could implement any latest developments from the Bitcoin community: lightning network, script upgrades, and much more. The interface standard is kept same as that of Bitcoin, allowing users to integrate easily.
 \end{flushleft}
 \begin{flushleft}
-    The CPoST ecosystem model includes mining pool, miner, crypto currency holder, wallet, exchanges and hardware vendor. The positive inner cycle and entrance of outside resources would bring expansion and development to this ecosystem, the rising price of DEPINC would attract more miners; more miners coming to the system will lead to further price increase.
+    The CPoST ecosystem model includes mining pool, miner, crypto currency holder, wallet, exchanges and hardware vendor. The positive inner cycle and entrance of outside resources would bring expansion and development to this ecosystem, the rising price of DePINC would attract more miners; more miners coming to the system will lead to further price increase.
 \end{flushleft}
 \begin{flushleft}
     The cost of PoW is influenced by four factors: cost of dishonesty, cost of mining, level of difficulty and cost of mining devices. In the end, the PoW would become another low gross margin industry, the former windfall profits was because of insufficient scale, fluctuation of secondary market and limited device vendors.
 \end{flushleft}
 \begin{flushleft}
-    When it comes to PoS, due to the relatively low power consumption by hardware, miners can obtain other coins in the future symbiotic ecosystem of PoS almost free of charge without any risk.
+    When it comes to PoST, due to the relatively low power consumption by hardware, miners can obtain other coins in the future symbiotic ecosystem of PoST almost free of charge without any risk.
 \end{flushleft}
 \begin{flushleft}
-    The CPoST system, could give miners the choice to have most of the profits, incur cost for them to be the holder of other PoS coins, and avoid any malicious act. At the same time, the CPoST system attaches great importance to the release of distributional right and packaging right without barrier, which brings equity to the system. DEPINC network architecture and the participants:
+    The CPoST system, could give miners the choice to have most of the profits, incur cost for them to be the holder of other PoST coins, and avoid any malicious act. At the same time, the CPoST system attaches great importance to the release of distributional right and packaging right without barrier, which brings equity to the system. DePINC network architecture and the participants:
 \end{flushleft}
 \begin{flushleft}
-    \centering\textbf{DEPINC network architecture}
+    \centering\textbf{DePINC network architecture}
 \end{flushleft}
 \input{graph-depc_network_arch}
 \subsection{Miners Mining Procedure}
@@ -110,189 +140,332 @@
 \subsection{Plotting - Create Plot File}
 \subsubsection{Algorithms and acronyms}
 \begin{flushleft}
-    \textbf{Shabal}: Shabal is the name of the crypto/hash function used in DEPINC. It is a rather heavy and slow crypto compared to many other alternatives like SHA256. Thus Shabal is a good crypto for Proof of Space coins like DEPINC, because we store the precomputed hashes while it is still fast enough to do smaller live verifications. DEPINC uses the 256bit version of Shabal, which is also known as Shabal256.
+    Decenterialized consensus algorithms require to consume scarce resources, such as computing power, staked money and storage space. DePINC is continuing to use storage space to secure the network. Timelord has been added to provide a reliable cryptographic. By adding timelord to increase the security of entired network.
 \end{flushleft}
 \begin{flushleft}
-    \textbf{Hash / Digest}: A hash or digest in this context is a 32Byte (256bit) long result of the Shabal256 Crypto.
+    DePINC cryptocurrency system combines Proof of Space (PoS) and Time (PoT). All required proofs are submitted to block-chain and can be easily verified. Miners need to find the correct answer by searching those random-looking data to win the lottery. No funds, special hardware, registration or permission is required to join except a hard driver and internet connection.
+\end{flushleft}
+\subsubsection{Proof of Space}
+\begin{flushleft}
+    A Proof of Space protocol is one in which:
+\end{flushleft}
+\begin{itemize}
+    \item A Verifier can send a challenge to a Prover.
+    \item The Prover can demonstrate to the Verifier that the Prover is reserving a specific amount of storage space at that precise time.
+\end{itemize}
+\begin{flushleft}
+    The Proof of Space protocol has three components: plotting, proving/farming, and verifying. For more info, see Chia's Details of the chiapos specification, and reference implementation by visiting https://chia.net.
+\end{flushleft}
+\input{graph-pos_prover_verifier}
+\subsection{Plotting}
+\begin{flushleft}
+    Plotting is the process by which a Prover, who we refer to as a miner, initializes a certain amount of space. To become a miner, one must have at least 101.4 GiB available to reserve on their computer (the minimum spec is a Raspberry Pi 4). There is no upper limit to the size of a Chia farm. Several farmers have multi-PiB farms.
 \end{flushleft}
 \begin{flushleft}
-    \textbf{Nonce}: When generating a plot file, you generate something that is called nonces. Each nonce contains 256Kilobyte of data that can be used by miners to calculate Deadlines. Each nonce has its individual number. This number can range between 0-18446744073709551615. The number is also used as a seed when creating the nonce, so each nonce has its own unique set of data. One plot file can contain many nonces.
+    As of Chia 1.2.7, a k32 plot can be created in around five minutes with a high-end machine with 400 GiB of RAM, or six hours with a normal commodity machine, or 12 hours with a slow machine using one CPU core and a few GB of RAM. Opportunities still remain for huge speedups. Furthermore, each plot only needs to be created once; a miner can farm with the same plots for many years.
 \end{flushleft}
 \begin{flushleft}
-    \textbf{Scoop}: Each nonce is sorted into 4096 different places of data. These places are called scoop numbers. Each scoop contains 64byte of data which holds 2 hashes. Each of these hashes are xored with a final hash (we get to final hash while generating a nonce chapter).
+    Plot sizes are determined by a k parameter, where $space = 780 * k * 2^{k - 10}$, with a minimum k of 32 (101.4 GiB). The Proof of Space construction is based on Beyond Hellman, but it is nested six times (thereby creating seven tables), and it contains other heuristics to make it practical.
 \end{flushleft}
 \begin{flushleft}
-    \textbf{Plot ID}: When you create your plot file it will be bound to a specific DEPINC account. The numeric account ID is used when you create your nonces. Because of this all miners have different plot files even if they use the same nonce numbers.
-\end{flushleft}
-\subsection{Generating a Nonce}
-\begin{flushleft}
-    The first step in creating a nonce is to make the first seed. The seed is a 16byte long value containing the Plot ID and the nonce number. When this is done we start to feed the Shabal256 function to get our first hash.
+    Each of the seven tables in a plot is filled with random-looking data that cannot be compressed. Each table has $2^k$ entries. Each entry in table i contains two pointers to table i-1 (the previous table). Finally, each table-1 entry contains a pair of integers between 0 and $2^k$, called "x-values." A Proof of Space is a collection of 64 x-values that have a certain mathematical relationship. The actual on-disk structure and the algorithm required to generate it are quite complicated, but this is the general idea.
 \end{flushleft}
 \begin{flushleft}
-    We have produced the first hash. This is the last hash in the nonce. Hash $\#8191$. Now we take this produced hash ($\#8191$) and pre-append it to the starting seed. The result will now be our new seed for the next round of shabal256 computation.
+    Once the Prover has initialized 101.4 GiB, they are ready to receive a challenge and create a proof. One attractive property of this scheme is that it is non-interactive: no registration or online connection is required to create a plot using the original plot format. Nothing hits the blockchain until a reward is won, similar to PoW. For pool portable plots, a miner only needs a few mojos to create a plot NFT before plotting and then everything has the same characteristics from there.
+\end{flushleft}
+\subsection{Farming}
+\begin{flushleft}
+    Farming is the process by which a miner receives a sequence of 256-bit challenges to prove that they have legitimately put aside a defined amount of storage. In response to each challenge, the miner checks their plots, generates a proof, and submits any winning proofs to the network for verification.
 \end{flushleft}
 \begin{flushleft}
-    We now have produced two hashes.
-\end{flushleft}
-\begin{flushleft}
-Hash $\#8191$ and Hash $\#8190$. This time we pre-append Hash $\#8190$ to the last seed we used. The result will now be a new seed to feed Shabal256.
-\end{flushleft}
-\begin{flushleft}
-    Once again, we have created a new hash. This procedure of pre-appending resulting hashes to a new seed will continue for all 8192 hashes we create for a nonce. After iteration 128 we have reached more than 4096 bytes in the seed. For all remaining iterations we will only read the last 4096 generated bytes.
-\end{flushleft}
-\begin{flushleft}
-    Once we have created 8192 hashes we are now going to make a Final hash. This is done by using all 8192 hashes and the first 16 bytes as seed.
-\end{flushleft}
-\input{graph-making_hash}
-\begin{flushleft}
-    The final hash will now be used to xor all other hashes individually.
-\end{flushleft}
-\begin{flushleft}
-    We have now created our nonce and can store it in a plot file before we continue to the next nonce.
-\end{flushleft}
-\subsection{PoS Format}
-\begin{flushleft}
-    The PoS2 nonce format is created the same way as PoS1 with a slight addition to the end of the process. To create a PoS2 formatted nonce we need to shuffle the data around.
-\end{flushleft}
-\begin{flushleft}
-    The data shuffling process:
-\end{flushleft}
-\begin{flushleft}
-    Dividing the nonce in 2 halves, get a range with scoops 0-2047 and 2048-4095. Name 0-2047 the low scoop range and 2048-4095 the high scoop range. Take the second hash from a scoop in the low range, and swap it with the second hash in its mirror scoop found in the high range.
-\end{flushleft}
-\begin{flushleft}
-    The mirror scoop is calculated like this:
-    \begin{equation}
-        MirrorScoop = 4095 - CurrentScoop
-    \end{equation}
-\end{flushleft}
-\input{graph-pos_format}
-\subsection{Plot Structure}
-\begin{flushleft}
-    When we are mining we read nonce from one or more plot files. The miner software will open a plot file and seek the scoop locations to read the scoops data. If the plot file is unoptimized, the scoop location will be on more than one place. In the following example the miner will be seeking and reading scoop $\#403$.
-\end{flushleft}
-\input{graph-seeking_reading_scoop_403}
-\begin{flushleft}
-    This is not the most effective way since the miner will spend a lot of time to seek new locations on the storage device to be able to read the scoops. To prevent this, we can optimize plots or use plotter software that creates optimized plots from the beginning. Optimization is done by reordering the data in the plot file and grouping all data from the same scoop number together.
-\end{flushleft}
-\input{graph-unoptimized_optimized}
-\begin{flushleft}
-    Basically, what we have done is to divide the plot file into 4096 portions where we split up all the nonces data based on scoop numbers. When the miner now wants to read Scoop 4096 it only seeks one time and read all data sequentially. This provides better performance.
-\end{flushleft}
-\subsection{Mining and Block Forging}
-\subsubsection{Algorithms and acronyms}
-\begin{flushleft}
-    \textbf{Shabal / Sha256 / Curve25519}\\
-    Shabal, Sha256 or Curve25519 is the name of the crypto/hash function used in DEPINC. Shabal is the main function in DEPINC. It is a rather heavy and slow crypto compared to many other alternatives like SHA256. Thus Shabal is a good crypto for Proof of Space coins like DEPINC because we store the precomputed hashes while it is still fast enough to do smaller live verifications. DEPINC uses the 256bit version of Shabal, which is also known as Shabal256.
-\end{flushleft}
-\begin{flushleft}
-    \textbf{Deadline}\\
-    When you mine and process Plot files, you end up with a value called deadline. These values represent the number of seconds that must pass since the forging of last block before block-forging is allowed. If no one else forges a block during this period, you can forge a block and get a block reward.
-\end{flushleft}
-\begin{flushleft}
-    \textbf{Block Reward}\\
-    If you are lucky enough to cast a block, you will get DEPINC. This is called a block reward. For every 420000 blocks, the block reward is reduced by $50\%$. The initial reward is 25 DEPINCs per block, of which 1.25 belongs to the Foundation. Under full conditions, the miners'Union gets 23.75 DEPINCs.
-\end{flushleft}
-\begin{flushleft}
-    \textbf{Base Target}\\
-    Base target is calculated from the last 288 blocks. This value adjusts the difficulty for the miners. The lower the base target, the harder it is for a miner to find a low deadline. It gets adjusted in a way that DEPINC can have an average of 5 minutes for each block.
-\end{flushleft}
-\begin{flushleft}
-    \textbf{Network Difficulty}\\
-    Network Difficulty, or NetDiff in short, is a value that can be read as an estimate on the total amount of space in Byte dedicated to mine DEPINC. This value changes with every block in relation to base target.
-\end{flushleft}
-\begin{flushleft}
-    \textbf{Block Height}\\
-    Every block forged gets an individual number. Every new block forged gets the previous block's number + 1. This number is called block height, and can be used to identify a specific block.
-\end{flushleft}
-\begin{flushleft}
-    \textbf{Generation Signature}\\
-    Generation signature is a based from the previous block merkle root and block height, This value is then used by miners to forge a new block. Generation signature is 32 bytes long.
-\end{flushleft}
-\subsection{Mining Process}
-\begin{flushleft}
-    The first thing that happens when you start mining, is that the miner talks to the wallet and asks for mining information. This information contains a new generation signature, base target, and the next block height. Before the wallet sends over this info, it creates the generation signature by taking the previous generation signature together with plot id and runs this though shabal256 to get the new hash. The miner will now take the new 32 byte generation signature, and the 8byte block height, and put them together as a seed for Shabal256. The result will be a hash value called Generation hash.
-\end{flushleft}
-\input{graph-generation_hash}
-\begin{flushleft}
-    Now, the miner will do a small mathematical operation on this hash to find out which scoop number to use when processing the plot files. This is done by taking the generation hash modulo 4096, as there are only that many scoops
-\end{flushleft}
-\begin{equation}
-    ({GenHash}) _{mod} ({4096}) = Scoop Number
-\end{equation}
-\begin{flushleft}
-    Next step for the miner is to read all the 64-byte long scoops from all nonces in all plot files. It will process them individually through shabal256 together with the new generation signature to get a new hash called target. This target is now divided with base target and the first 8bytes of the result is the value deadline.
-    \begin{equation}
-        Target = shabal256 (scoop data, generation signature)
-    \end{equation}
-    \begin{equation}
-        Deadline = \frac{target}{base target};
-    \end{equation}
-\end{flushleft}
-\input{graph-generate_the_deadline}
-\begin{flushleft}
-    To prevent so-called "nonce spamming" to the wallet, the miner usually checks if the current deadline found is lower than the lowest one it has found so far. Usually there is also a max value that can be set, as ridiculously large deadlines are of no use to anyone. After these checks, the miner submits information to the wallet. This information contains the numeric plot ID bound to the plot file, and the nonce number that contains the scoop data used to generate the deadline.
-\end{flushleft}
-\subsection{Block Forging Process}
-\begin{flushleft}
-    \textbf{Handling Deadlines}\\
-The wallet has now received the information submitted by the miner, and will now create the nonce to be able to find and verify the deadline for itself. After this is done, the wallet will now check and see if an equal amount or more seconds has passed as defined by the deadline. If not, the wallet will wait until it has. If a valid forged block from another wallet is announced on the network before the deadline has passed, the wallet will discard the mining info submitted since it is no longer valid. If the miner submits new information, the wallet will create that nonce and check if the deadline value is lower than the previous value. If the new deadline is lower, the wallet will use that value instead. When the deadline is valid, the wallet will now start to forge a block.
-\end{flushleft}
-\begin{flushleft}
-    \textbf{Forging}\\
-    The wallet will start by getting all of the unconfirmed transactions it has received from users or from the network. It will try to fit as many of these transactions possible until it hits the limit of 8M, or until all transactions are processed. For each transaction the wallet reads, it will do checks. For example, if the transaction has a valid signature, if it has a correct timestamp, etc. The wallet will also sum up all of the added transactions amounts and fees.
-\end{flushleft}
-\subsubsection{DEPINC Wallet Vs BTC Wallet}
-\begin{flushleft}
-    DEPINC inherits the BTC wallet in code level, but differs from BTC in the following aspects:
+    For each eligible plot (explained later), a miner uses the following procedure to generate a full Proof of Space. Keep in mind that a plot consists of 7 tables (T1-T7) of approximately the same size, as well as 3 checkpoint tables (C1-C3), which are much smaller:
 \end{flushleft}
 \begin{enumerate}
-    \item DEPINC expands the block size to 2 MB/block, Blocks become larger, and a single block can contain more transactions to speed up transfers.
-    \item The avg block generation time is set to 3 mins. Block generation time is halved and the transaction time has increased.
-    \item Initial reward is set to 15 DEPINC/block, halves each 4 years. The initial reward is halved, giving the community more time to develop, since early adopters are not taking too much advances, the miner community could share more profits.
+    \item The miner receives a challenge from the block-chain
+    \item For each eligible plot, extract a k-sized value from the challenge, where k denotes the size of the plot (k32, k33, etc)
+    \item Look in the C2 table for a location at which to start scanning the C1 table
+    \item Scan the C1 table for the location at which to start scanning the C3 table
+    \item Read either one or two C3 parks. The number of parks to read depends on the index and value calculated from the C1 table. This requires an average of 5000 reads (the maximum is 10 000). These are sequential reads of 4 bytes (for an average total of 20 KiB)
+    \item Grab all the f7 entries matching the challenge value (which can be 0 or more), along with the index in the table at which they were found
+    \item For each matching f7 value, read T7 at the same index where the f7 value was found in its own table, and grab that entry, which is an index into T6
+    \item The T6 index contains one line point with two back pointers to T5, four to T4, eight to T3, sixteen to T2 and thirty-two to T1. Each back pointer requires 1 read, so a total of 64 disk reads (1 index from T7, 63 back pointers) are performed to fetch the whole tree of 64 x-values.
 \end{enumerate}
-\begin{tabular}{ |p{5cm}|p{3cm}|p{3cm}| }
+\begin{flushleft}
+    Since most proofs generated by this process are not good enough to be submitted to the network for verification, we can optimize this process by only checking one branch of the tree. This branch will return two of the 64 x-values. The position of the x-values will always be consecutive and will depend on current challenge (eg x0 and x1... or x34 and x35). We hash these x-values to produce a random 256-bit ``quality string.'' This is combined with the difficulty and the plot size to generate the required\_iterations. If the required\_iterations is less than every required\_iterations those are found from local storage or internet, the proof can be included in the blockchain. At this point, we look up the whole Proof of Space.
+\end{flushleft}
+\begin{flushleft}
+    By only looking up one branch to determine the quality string, we can rule out most proofs. This optimization requires only around 7-9 disk seeks and reads, or about 70-90 ms on a slow hard drive.
+\end{flushleft}
+\begin{flushleft}
+    \textbf{INFO}\\[5pt]
+    \textit{``Throughout this website, we'll make a simple assumption that a single disk seek requires 10ms. In reality, this is typically 5-10ms, so we're using a conservative estimate.\\[5pt]
+    The 10ms estimate also takes into account the time required to transfer data after the seek. While storage industry specs typically assume that large files are being transferred, this does not hold true for DePINC farming, where proof lookups only require a tiny amount of data to be transferred. Therefore, it's safe to assume the transfer is almost instant.''}
+\end{flushleft}
+\begin{flushleft}
+    DePINC also uses a further optimization to disqualify a certain proportion of plots from eligibility for each challenge. This is referred to as the plot filter. The current requirement is that the hash of the plot ID, challenge starts with 9 zeros. This excludes 511 out of every 512 plots. The filter hurts everyone equally (except for replotting attackers), and is therefore fair.
+\end{flushleft}
+\begin{flushleft}
+    The plot filter effectively reduces the amount of resources required for farming by 512x -- each plot only requires a few disk reads every few minutes. A miner with 1 PiB of storage (10,000 plots) will only have an average of 20 plots that pass the filter for each challenge. Even if these plots all are stored on slow HDDs, and connected to a single Raspberry Pi, the average time required to respond to each challenge will be less than two seconds. This is well within the limits to avoid missing out on any challenges.
+\end{flushleft}
+\begin{flushleft}
+    Each plot file has its own unique private key called a plot key. The plot ID is generated by hashing the plot public key, the miner public key, and either the pool public key (for OG plots) or the pool contract puzzle hash (for pooled plots). The requirements for signing a Proof of Space depend on the type of plots being used. See the Plot Public Keys page for details on the keys used for plot construction.
+\end{flushleft}
+\begin{flushleft}
+    In practice, the plot key is a 2/2 BLS aggregate public key between a local key stored in the plot and a key stored by the miner software. For security and efficiency, a miner may run on one server using this key and signature scheme. This server can then be connected to one or more harvester machines that store the actual plots. Farming requires the miner key and the local key, but it does not require the pool key, since the pool's signature can be cached and reused for many blocks.
+\end{flushleft}
+\subsection{Verifying}
+\begin{flushleft}
+    After the miner has successfully created a Proof of Space, the proof can be verified by performing a few hashes and making comparisons between the x-values in the proof. Recall that the proof is a list of 64 x-values, where each x-value is k bits long. For a k32 this is 256 bytes (2048 bits), and is therefore very compact. Verification is very fast, but not quite fast enough to be verified in Solidity on Ethereum (something that would enable trustless transfers between chains), since this verification requires blake3 and chacha8 operations.
+\end{flushleft}
+\section{Proof of time (VDFs)}
+\begin{flushleft}
+    A Verifiable Delay Function, also referred to as a Proof of Time or VDF, is a proof that a sequential function was executed a certain number of times.
+\end{flushleft}
+\begin{flushleft}
+    \textbf{Verifiable}: This means that after performing the computation (which takes time), the Prover can create a very small proof in a very short time, and the Verifier can verify this proof without having to redo the whole computation.
+\end{flushleft}
+\begin{flushleft}
+    \textbf{Delay}: This means that the Prover actually spent a real amount of time (although we don't know exactly how much) to compute the function.
+\end{flushleft}
+\begin{flushleft}
+    \textbf{Function}: This means it's deterministic: computing a VDF on an input x always yields the same result y.
+\end{flushleft}
+\begin{flushleft}
+    The key word here is "sequential", like hashing a number many times: hash(hash(hash(a))), etc. This means the prover cannot just add more machines to make the function execute faster. Therefore we can assume that computing a VDF requires real (wall-clock) time. The construction that we use is repeated squaring. The Prover must square a challenge x T times. This requires time ϴ(T). The Prover also must create a proof that this was performed properly.
+\end{flushleft}
+\begin{flushleft}
+    Although the following details are not very important for understanding the consensus algorithm, the choice of what VDF to use is relevant, because if an attacker succeeds in obtaining a much faster machine, some attacks become possible.
+\end{flushleft}
+\input{graph-pot_prover_verifier}
+\begin{flushleft}
+    The VDF used by DePINC is repeated squaring in a class group of unknown order. There are two main ways to generate a large group that has an unknown order:
+\end{flushleft}
+\begin{enumerate}
+    \item Use an RSA modulus, and use the integers mod N as a group. The order of the group is unknown if you can generate your modulus with many participating parties using an MPC ceremony.
+    \item An easier approach is to use classgroups with a large prime discriminant, which are groups of unknown order. This does not require any complex or trusted setup, so we chose this option for DePINC.
+\end{enumerate}
+\begin{flushleft}
+    To create one of these groups, one just needs a large, random, prime number. The drawbacks are that classgroup code is less tested in real life, and optimizations are less well-known than in RSA groups. We use the same initial element for the squaring (a=2, b=1 classgroup element), and instead use the challenge to generate a new random prime number for each VDF, which is used as the discriminant. The discriminant has a size of 1024 bits, which means the proof sizes are around 1024 bits. We use the Wesolowski scheme split into n (1<=n<=64) phases so that creating the proofs is very fast. Since the n-wesolowski proofs can be large, we replace them with 1-wesolowski proofs as soon as they are available. These are smaller, but require more time to make. The proofs themselves are not committed to on-chain, so they are replaceable.
+\end{flushleft}
+\subsection{Infusion}
+\begin{flushleft}
+    As a recap, VDFs take in an input, called a challenge, and produce an output, together with a proof that certifies that the function was evaluated correctly.
+\end{flushleft}
+\begin{flushleft}
+    A value, in this context, can be thought of as a block with a Proof of Space. The value is combined with an output of a VDF, to generate a new value, which is used as the input/challenge for the next VDF. This is known as an infusion of a value into a VDF.
+\end{flushleft}
+\begin{flushleft}
+    Therefore, we are chaining VDFs, but committing to a new value in between. This is used so that we have a linear progression of blocks, alternating proofs of space with proofs of time.
+\end{flushleft}
+\subsection{Challenge}
+\begin{flushleft}
+    The DePINC consensus algorithm relies on timelords running VDFs for each block, which are adjusted periodically (and automatically) to take around 3 minutes. During every block, challenges are generated according previous block, and a sort of mini lottery starts, where farmers check their plots for proofs of space. When farmers find a Proof of Space that qualifies, they broadcast it to the network after the VDF calculation with required\_iterations is finished.
+\end{flushleft}
+\begin{flushleft}
+    A challenge is always a 256-bit hash. It is released when a new block has been added to blockchain. The challenge services both PoS and VDF.
+\end{flushleft}
+\subsection{Quality and iterations}
+\subsubsection{Quality}
+\begin{flushleft}
+    The number of quality is used to represent the quality of a proof of space which is found from plots. According the quality, an iterations will be calculated and it controls how many times should be passed before miner can post the block with the PoS.
+\end{flushleft}
+\begin{equation}
+    Quality = \frac{QualityString * Plot_{size}}{2^{256}}
+\end{equation}
+\subsubsection{Iterations}
+\begin{flushleft}
+    ``required\_iterations'' is the number that VDF should run with. To verify a VDF proof not just only verify the proof itself, we also need to ensure the number of iterations is exceeded the requirement from PoS. Smaller of the number means the better quality it is. The block contains with the proof with better quality will be released earlier than others.
+\end{flushleft}
+\begin{equation}
+    Iters = Difficulty * Difficulty_{factor} * \frac{QualityString}{2^{256} * Plot_{size}}
+\end{equation}
+\begin{flushleft}
+    QualityString is mixed from current challenge and proof. $\frac{QualityString}{2^{256}}$ is a number between 0 and 1, multiply the number with the size of plot file will get the quality of the proof. The quality is used to multiply with difficulty in order to get the number of iterations. $Difficulty_{factor}$ is a constant number to fix the iterations to a reasonable range.
+\end{flushleft}
+\subsection{Blocks}
+\begin{flushleft}
+    DePINC releases block every 3 minutes. The basic information are assembled into the block such as transactions, Proof of Space, VDF proofs and difficulty.
+\end{flushleft}
+\subsubsection{Block generation steps}
+\begin{enumerate}
+    \item Find Proof of Space from plots
+    \item Calculate ``required\_iterations'' according the proof
+    \item Wait and retrieve VDF proof from timelord
+    \item Create new block and pack with all proofs and TXs etc
+\end{enumerate}
+\input{graph-block_generation}
+\subsubsection{Void block}
+\begin{flushleft}
+    There is a very rare situation, the proof of space cannot be found from the entired network. The consensus will add an empty duration without a PoS called void block. After the proof of VDF is calculated, miner will be asked to mix a new challenge to find a Proof of Space. The void block will be included into the new block.
+\end{flushleft}
+\subsection{Difficulty}
+\begin{flushleft}
+    Difficulty is the value represents how good is the block. According to current netspace and VDF speed, difficulty will be adjusted on every block. The time to release a new block will be around 3 minutes.
+\end{flushleft}
+\subsubsection{Difficulty adjustment}
+\begin{flushleft}
+    The equation of the difficulty adjustment is trying to calculate the new weight of next block. Adjusting difficulty also affects the number of iterations, this is also the way how the new block releases after 3 minutes.
+\end{flushleft}
+\begin{equation}
+    NewDifficulty = \frac{Weight_{current} - Weight_{previous}}{Time_{CurrentBlock} * Time_{PreferBlock}}
+\end{equation}
+\subsection{Network space}
+\begin{flushleft}
+    Network space is the value that represents total amount of space those are allocated to generate current blockchain. Network space can be calculated from the difficulty of the last block on the chain.
+\end{flushleft}
+\begin{equation}
+    NetSpace = \frac{Difficulty_{current}}{Iters_{current}}*{DifficultyConstantFactor}*2^{FilterBits}
+\end{equation}
+\begin{flushleft}
+    \textit{Please note: the calculated size is not exactly the value of the network space. It is just the rule to mesure the network.}
+\end{flushleft}
+\section{Block validation}
+\subsection{Block format}
+\subsubsection{Proof of Space}
+\begin{flushleft}
+    To verify a PoS, the ``PlotId'' from plot is required, and we also need the public-key of the farmer (aka ``farmer-pk'') to verify the signature later. The plot also needs to be verified to ensure it is owned by the farmer. Record all related fields is the best way to accomplish it.
+\end{flushleft}
+\begin{tabular}{ |p{3cm}|p{3cm}|p{6cm}| }
     \hline
-    \rowcolor{lightgray} \textbf{Parameter} & \textbf{BTC} & \textbf{DEPINC} \\[5pt]
+    \rowcolor{lightgray}\textbf{Name} & \textbf{Data type} & \textbf{Description} \\[5pt]
     \hline
-    Total Supply & 21,000,000 & 21,000,000 \\[5pt]
-    \rowcolor{lightgray!30} Block Time & 10mins & 3mins \\[5pt]
-    Block Size & 1M & 2M \\[5pt]
-    \rowcolor{lightgray!30} Halving Cycle & every 4 years & every 4 years \\[5pt]
-    Initial Block Reward & 50 BTC & 15 DEPINC \\[5pt]
+    Pool pk or Hash & 48 or 32 bytes & According Chia's consensus.\\[5pt]
+    \rowcolor{lightgray!30} Pk type & 1-byte & The type of the public key (OGPlot or PooledPlots) \\[5pt]
+    Local pk & 48-byte & Local public-key identify the plot provide the proof \\[5pt]
+    \rowcolor{lightgray!30} Farmer pk & 48-byte & Identify the farmer \\[5pt]
+    K & 1-byte & The size of the plot file \\[5pt]
+    \rowcolor{lightgray!30} Proof & multi-bytes & The proof of space \\[5pt]
     \hline
 \end{tabular}
-\section{DEPINC Technical Characteristics}
-\begin{tabular}{ |p{12cm}| }
+\subsubsection{VDF proofs}
+\begin{flushleft}
+    Verify VDF proof is more easier. Provide ``Proof'', ``Y'', ``witness type'' and ``Iterations'' to verify function will get the result. And the verifier also need to ensure the number of iterations is enough to satisify the consensus.
+\end{flushleft}
+\begin{tabular}{ |p{3cm}|p{3cm}|p{6cm}| }
     \hline
-    PoS2 consensus mechanism\\[5pt]
+    \rowcolor{lightgray}\textbf{Name} & \textbf{Data type} & \textbf{Description} \\[5pt]
     \hline
-    5-minute block generation time, the transaction speed is faster\\[5pt]
-    \hline
-    8 M block size to improve network efficiency\\[5pt]
-    \hline
-    Zero knowledge proof will be added once whole network capacity reaches 3000P. Uses hard disk mining, anti-ASIC, mine without special equipment\\[5pt]
-    \hline
-    Sustainable, low energy consumption, low noise\\[5pt]
+    Y & multi-bytes & large prime discriminant \\[5pt]
+    \rowcolor{lightgray!30} Proof & multi-bytes & The proof of time \\[5pt]
+    Witness type & 1-byte & The type of witness \\[5pt]
+    \rowcolor{lightgray!30} Iterations & 64-bit & The number of iterations \\[5pt]
     \hline
 \end{tabular}
-\subsection{Blockchain}
+\subsubsection{Farmer signature}
 \begin{flushleft}
-    Block includes proof sub block, signature sub block and transaction sub block. The arrow indicates that the sub-block contains the signature of the miner which has the arrow pointing to the sub-block. Our challenge is generated by sub-block hashed from blocks before current one.
+    Farmer signature is used to ensure the owner of the proof of space. The signature can be verified by ``farmer-pk''. The number of bytes of the signature is 96.
 \end{flushleft}
-\subsection{Possible Attack and Prevention Design}
+\subsubsection{Quality}
 \begin{flushleft}
-    While creating blocks, miners can try different transaction combinations, making the blocks created biased towards themselves. In our block structure, the independence of the proof sub-block prevents this attack.
+    A 64-bit number represents the quality of proof of space. The way to verify the quality is use the equation we mention before.
 \end{flushleft}
-\subsubsection{Challenge Grinding}
+\subsubsection{Difficulty}
+\begin{flushleft}
+    Difficulty is a 64-bit constant number represents the network space. The difficulty can be calculated from previous block.
+\end{flushleft}
+\subsection{Verify block}
+\begin{flushleft}
+    The following steps list all required checks to ensure the validity of a block.
+\end{flushleft}
+\begin{enumerate}
+    \item Check previous block - To ensure the challenge is correct and generated from the previous block
+    \item Check duration of VDF - The duration between blocks must has a reasonable value
+    \item Check number of iterations of VDF - The number of iterations must satisify the requirement
+    \item Check void blocks - Ensure the void blocks are valid and the challenge is mixed correctly
+    \item Check difficulty - The difficulty can be calculated from the previous block
+    \item Check the quality of the proof
+    \item Verify the proof of space
+    \item Verify the proof of VDF
+    \item Verify farmer's signature
+    \item Check distributed amount by coinbase
+    \item Check validity of pledges TXs
+\end{enumerate}
+\section{Economic model}
+\begin{flushleft}
+    Economic has been improved after the Chia's consensus is updated. The total supply amount is increased and add ``lock period'' for each pledge.
+\end{flushleft}
+\subsection{Total supply is increased}
+\begin{flushleft}
+    The amount of total supply is increased to 84,000,000.
+\end{flushleft}
 \begin{itemize}
-    \item In the process of mining, miners can divide their space into m parts, then continuously refactor $t = 2\Delta$ on the blockchain.
-    \item Then you can try $i_{th}$ block proof, making $i + \Delta$ quality the biggest. Based on linear summation calculated quality, according to the above attack method, it will result in an attacker having $\frac{1}{2}$ times chance to get bigger quality.
-    \item By redefining the blockchain quality, the gains from this attack can be reduced. The calculation of quality is changed from linear superposition to multiplication.
-    \item Under this definition, the probability increases obtained by the attacker will be reduced to $\log(m)$. At the same time, let the challenge of continuous $\Delta$ block be determined by the same block, which will further reduce the impact of the attack.
+    \item The total amount to be supplied in each block will be doubled after consensus updated
+    \item The foundation will receive an additional amount of the total amount multiply with 2 already supplied on the current chain at one time
+    \item The Foundation will no longer receive funds in future blocks.
 \end{itemize}
-\subsection{Transaction}
+\subsection{Pledge improvement}
 \begin{flushleft}
-    DEPINC transaction structure is the same as Bitcoin, that is, UTXO to UTXO's chain. This type of transaction design has also been available for many years, and it is also an effective way to achieve its basic properties.
+    The miner needs to pledge a certain amount of DePINC to the chain, and the pledged amount is related to its pledge time. When the pledge time is less than three years, the pledge amount will be discounted. During the pledge time, these DePINC will not be able to be withdrawn.
 \end{flushleft}
-\input{graph-utxo}
+\subsubsection{Netspace}
+\begin{flushleft}
+    Assuming that the netspace of a miner is ``p'', the current netspace of the entire network is ``t'', and the current distributed amount is ``m'', then the current miner wants to achieve the condition of full pledge, and the amount of currency ``a'' needs to pledge is:
+\end{flushleft}
+\begin{equation}
+    a = \frac{p}{t} * m
+\end{equation}
+\subsubsection{Lock period}
+\begin{flushleft}
+    Now the miner needs to select the type of period for every new pledge. It determines the ratio value of the total amount that the pledge amount actual is.
+\end{flushleft}
+\begin{tabular}{ |p{5cm}|p{3cm}|p{3.5cm}| }
+    \hline
+    \rowcolor{lightgray}\textbf{Period} & \textbf{Ratio} & \textbf{$1_{DePINC}$ required} \\[5pt]
+    \hline
+    Current Deposit (1 week) & $8\%$ & $12.5_{DePINC}$ \\[5pt]
+    \rowcolor{lightgray!30} 1 year & $20\%$ & $5_{DePINC}$ \\[5pt]
+    2 years & $50\%$ & $2_{DePINC}$ \\[5pt]
+    \rowcolor{lightgray!30} 3 years & $100\%$ & $1_{DePINC}$ \\[5pt]
+    \hline
+\end{tabular}
+\subsubsection{Burn}
+\begin{flushleft}
+    When the pledge period has not yet expired, it is allowed to lose part of the pledged currency to withdraw the pledged amount, but part of the currency will be destroyed according to the pledged time. Assuming that ``p'' blocks have been pledged, a total of ``f'' blocks need to be pledged, and the amount of pledged currency is ``a''. Then, withdrawing the pledge with the amount of currency a in block ``p'' will return the amount ``w'' back, and $a-w$ is the amount of currency destroyed after this withdrawal.
+\end{flushleft}
+\begin{equation}
+    w = \frac{p}{f} * a
+\end{equation}
+\subsubsection{Burning mechanism}
+\begin{flushleft}
+    DePINC will use a special (20-byte) accountID, it is filled by 0x23 of each byte. No one owns the private-key, and the consensus also prevent that no one will be able to make a new transaction that transfer DePINC from this account even the foundation. All burned DePINC will be sent to this account, and the amount required of mining will be re-calculated on next block.
+\end{flushleft}
+\subsubsection{Total amount update frequency}
+\begin{flushleft}
+    The number of total distributed amount is calculated once a month (total 20*24*30 heights), and the data will remain unchanged for one month until the next calculation. This means that the amount of currency that all miners need to pledge also changes every month. This mechanism simplifies the calculation of pledges, and miners no longer need to calculate the total distributed amount frequently.
+\end{flushleft}
+\subsubsection{Insufficient pledge amount}
+\begin{flushleft}
+    When the amount of pledge is not enough for a miner to claim all rewards from a new block, miners will only get $15\%$ of the block rewards, the rest $85\%$ will be locked in the chain until the miner who has enough amount of pledge to claim all rewards.
+\end{flushleft}
+\subsubsection{For example}
+\begin{flushleft}
+    We assume that there is a miner initialized $15_{PB}$ storage to do the mining. Assume that the current netspace of the entire network is $200_{PB}$ and the total supplied amount is $10,000_{DePINC}$. Thus, according to the formula, the total amount that needs to be pledged per PB is $\frac{10,000}{200}=50_{DePINC}$. The miner in order to obtain $100\%$ mining rewards, a total of $50_{DePINC} * 15_{PB} = 750_{DePINC}$ needs to be pledged to the chain.
+\end{flushleft}
+\textbf{$100\%$ rewards}
+\begin{flushleft}
+    The miner can choose one of the following pledge plans to get $100\%$ rewards:
+    \begin{enumerate}
+        \item Deposit $9375_{DePINC}$ to the chain with period ``Current Deposit''
+        \item Deposit $3750_{DePINC}$ to the chain with period ``1 year''
+        \item Deposit $1500_{DePINC}$ to the chain with period ``2 years''
+        \item Deposit $750_{DePINC}$ to the chain with period ``3 years''
+    \end{enumerate}
+\end{flushleft}
+\textbf{$15\%$ rewards}
+\begin{flushleft}
+    Miner will receive $15\%$ rewards when the amount of pledge is less than $750_{DePINC}$. The pledge amount also increases when the total supply is increased or the miner initialized more space to do the mining.
+\end{flushleft}
+\subsubsection{Withdraw an unexpired pledge}
+\begin{flushleft}
+    The withdrawal amount will be calculated according to the percentage of the pledged period when the pledge is withdrawn unexpired. The remaining amount will be directly burned on the blockchain. For example: there is a  pledge with total amount of $300_{DePINC}$, the period of this pledge is 3 years. If we want to withdraw it after only 10 months. There are only a total of $83.33_{DePINC}$ will be withdrawn, the remaining $216.67_{DePINC}$ Will be burned.
+\end{flushleft}
+\begin{flushleft}
+    Formula to calculate the amount
+\end{flushleft}
+\begin{equation}
+    Withdrawal_{DePINC} = Total_{DePINC} * \frac{Time_{Elapsed}}{Time_{Agreed}}
+\end{equation}
+\subsection{Foundation addresses}
+\begin{flushleft}
+    There is at least one foundation address to be able to use for generating new blocks without binding them with a valid farmer public-key. This is a mechanism to ensure that the network will keep generating new blocks and this allows new miner to create binding/pointing transaction to add miners to the network. Consensus ensures that the pledge amount of foundation addresses will not be able to calculate with full mortgage, even someone deposit pledge to the foundation addresses.
+\end{flushleft}

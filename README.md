@@ -1,6 +1,6 @@
-# DEPINC White Paper
+# DePINC White Paper
 
-Here is the source files to generate the pdf file of DEPINC White Paper.
+Here is the source files to generate the pdf file of DePINC White Paper.
 
 ## How to compile it
 

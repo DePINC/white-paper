@@ -52,7 +52,7 @@ const entries = [
     {
         time: 'Q1, 2023',
         title: '\\textbf{Chia consensus}',
-        desc: 'In 2023, DEPINC will be compatible \\\\with Chia\'s old agreement documents \\\\for mining.',
+        desc: 'In 2023, DePINC will be compatible \\\\with Chia\'s old agreement documents \\\\for mining.',
         height: 2,
     },
 ]
