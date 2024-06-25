@@ -46,7 +46,7 @@ const entries = [
     {
         time: '2025',
         title: '\\textbf{Fusion Consensus}',
-        desc: 'DEPC is committed to building a \\\\flexible, scalable and integrated \\\\decentralized protocol ecosystem to meet \\\\future challenges and opportunities.',
+        desc: 'DePINC is committed to building a \\\\flexible, scalable and integrated \\\\decentralized protocol ecosystem to meet \\\\future challenges and opportunities.',
         height: 2.2,
     },
     {
