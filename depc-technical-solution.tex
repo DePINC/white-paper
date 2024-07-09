@@ -12,15 +12,15 @@
 \end{flushleft}
 \begin{tabular}{ p{4cm} p{8cm} }
     \hline
-    \textbf{Total supply}                               & 84 million                                                        \\[5pt]
-    \rowcolor{lightgray!30}\textbf{Development team}    & 2.1 million. Way: pre-mined                                       \\[5pt]
-    \rowcolor{lightgray!30}\textbf{Miner}               & 80 million. Way: mining                                           \\[5pt]
-    \textbf{Avg. block time}                            & 3-4 minutes                                                       \\[5pt]
-    \rowcolor{lightgray!30}\textbf{Initial block size}  & 15 DePINC / Block, 2MB block size                                 \\[5pt]
-    \textbf{Halve period}                               & In 4 years, the first halving time is about 582688 block height   \\[5pt]
-    \rowcolor{lightgray!30}\textbf{Current TPS}         & 70 transactions / sec                                             \\[5pt]
-    \textbf{Stake}                                      & Stake amount relate to the computing power                        \\[5pt]
-    \rowcolor{lightgray!30}\textbf{No stake}            & Only $10\%$ of the block reward.                                  \\[5pt]
+    \textbf{Total supply}                              & 84 million                                                      \\[5pt]
+    \rowcolor{lightgray!30}\textbf{Development team}   & 2.1 million. Way: pre-mined                                     \\[5pt]
+    \rowcolor{lightgray!30}\textbf{Miner}              & 80 million. Way: mining                                         \\[5pt]
+    \textbf{Avg. block time}                           & 3-4 minutes                                                     \\[5pt]
+    \rowcolor{lightgray!30}\textbf{Initial block size} & 15 DePINC / Block, 2MB block size                               \\[5pt]
+    \textbf{Halve period}                              & In 4 years, the first halving time is about 582688 block height \\[5pt]
+    \rowcolor{lightgray!30}\textbf{Current TPS}        & 70 transactions / sec                                           \\[5pt]
+    \textbf{Stake}                                     & Stake amount relate to the computing power                      \\[5pt]
+    \rowcolor{lightgray!30}\textbf{No stake}           & Only $10\%$ of the block reward.                                \\[5pt]
     \hline
 \end{tabular}
 \section{DePINC Economic Model}
@@ -151,7 +151,7 @@
 \begin{flushleft}
     \textbf{INFO}\\[5pt]
     \textit{``Throughout this website, we'll make a simple assumption that a single disk seek requires 10ms. In reality, this is typically 5-10ms, so we're using a conservative estimate.\\[5pt]
-    The 10ms estimate also takes into account the time required to transfer data after the seek. While storage industry specs typically assume that large files are being transferred, this does not hold true for DePINC farming, where proof lookups only require a tiny amount of data to be transferred. Therefore, it's safe to assume the transfer is almost instant.''}
+        The 10ms estimate also takes into account the time required to transfer data after the seek. While storage industry specs typically assume that large files are being transferred, this does not hold true for DePINC farming, where proof lookups only require a tiny amount of data to be transferred. Therefore, it's safe to assume the transfer is almost instant.''}
 \end{flushleft}
 \begin{flushleft}
     DePINC also uses a further optimization to disqualify a certain proportion of plots from eligibility for each challenge. This is referred to as the plot filter. The current requirement is that the hash of the plot ID, challenge starts with 9 zeros. This excludes 511 out of every 512 plots. The filter hurts everyone equally (except for replotting attackers), and is therefore fair.
@@ -279,14 +279,14 @@
 \end{flushleft}
 \begin{tabular}{ |p{3cm}|p{3cm}|p{6cm}| }
     \hline
-    \rowcolor{lightgray}\textbf{Name} & \textbf{Data type} & \textbf{Description} \\[5pt]
+    \rowcolor{lightgray}\textbf{Name} & \textbf{Data type} & \textbf{Description}                                 \\[5pt]
     \hline
-    Pool pk or Hash & 48 or 32 bytes & According Chia's consensus.\\[5pt]
-    \rowcolor{lightgray!30} Pk type & 1-byte & The type of the public key (OGPlot or PooledPlots) \\[5pt]
-    Local pk & 48-byte & Local public-key identify the plot provide the proof \\[5pt]
-    \rowcolor{lightgray!30} Farmer pk & 48-byte & Identify the farmer \\[5pt]
-    K & 1-byte & The size of the plot file \\[5pt]
-    \rowcolor{lightgray!30} Proof & multi-bytes & The proof of space \\[5pt]
+    Pool pk or Hash                   & 48 or 32 bytes     & According Chia's consensus.                          \\[5pt]
+    \rowcolor{lightgray!30} Pk type   & 1-byte             & The type of the public key (OGPlot or PooledPlots)   \\[5pt]
+    Local pk                          & 48-byte            & Local public-key identify the plot provide the proof \\[5pt]
+    \rowcolor{lightgray!30} Farmer pk & 48-byte            & Identify the farmer                                  \\[5pt]
+    K                                 & 1-byte             & The size of the plot file                            \\[5pt]
+    \rowcolor{lightgray!30} Proof     & multi-bytes        & The proof of space                                   \\[5pt]
     \hline
 \end{tabular}
 \subsubsection{VDF proofs}
@@ -295,12 +295,12 @@
 \end{flushleft}
 \begin{tabular}{ |p{3cm}|p{3cm}|p{6cm}| }
     \hline
-    \rowcolor{lightgray}\textbf{Name} & \textbf{Data type} & \textbf{Description} \\[5pt]
+    \rowcolor{lightgray}\textbf{Name}  & \textbf{Data type} & \textbf{Description}     \\[5pt]
     \hline
-    Y & multi-bytes & large prime discriminant \\[5pt]
-    \rowcolor{lightgray!30} Proof & multi-bytes & The proof of time \\[5pt]
-    Witness type & 1-byte & The type of witness \\[5pt]
-    \rowcolor{lightgray!30} Iterations & 64-bit & The number of iterations \\[5pt]
+    Y                                  & multi-bytes        & large prime discriminant \\[5pt]
+    \rowcolor{lightgray!30} Proof      & multi-bytes        & The proof of time        \\[5pt]
+    Witness type                       & 1-byte             & The type of witness      \\[5pt]
+    \rowcolor{lightgray!30} Iterations & 64-bit             & The number of iterations \\[5pt]
     \hline
 \end{tabular}
 \subsubsection{Farmer signature}
@@ -362,12 +362,12 @@
 \end{flushleft}
 \begin{tabular}{ |p{5cm}|p{3cm}|p{3.5cm}| }
     \hline
-    \rowcolor{lightgray}\textbf{Period} & \textbf{Ratio} & \textbf{$1_{DePINC}$ required} \\[5pt]
+    \rowcolor{lightgray}\textbf{Period} & \textbf{Ratio} & \textbf{$1_{DePC}$ required} \\[5pt]
     \hline
-    Current Deposit (1 week) & $8\%$ & $12.5_{DePINC}$ \\[5pt]
-    \rowcolor{lightgray!30} 1 year & $20\%$ & $5_{DePINC}$ \\[5pt]
-    2 years & $50\%$ & $2_{DePINC}$ \\[5pt]
-    \rowcolor{lightgray!30} 3 years & $100\%$ & $1_{DePINC}$ \\[5pt]
+    Current Deposit (1 week)            & $8\%$          & $12.5_{DePC}$                \\[5pt]
+    \rowcolor{lightgray!30} 1 year      & $20\%$         & $5_{DePC}$                   \\[5pt]
+    2 years                             & $50\%$         & $2_{DePC}$                   \\[5pt]
+    \rowcolor{lightgray!30} 3 years     & $100\%$        & $1_{DePC}$                   \\[5pt]
     \hline
 \end{tabular}
 \subsubsection{Burn}
